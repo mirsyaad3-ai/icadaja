@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio | Enisa Hutagalung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a onclick="showSection('home')">Home</a>
+  <a onclick="showSection('profile')">Profile</a>
+  <a onclick="showSection('karya')">Karya</a>
+  <a onclick="showSection('media')">Media</a>
+  <a onclick="showSection('kontak')">Kontak</a>
+</nav>
+
+<section id="home" class="content active">
+  <h1>Selamat Datang</h1>
+  <p>Website Portofolio Mahasiswa</p>
+</section>
+
+<section id="profile" class="content">
+  <h2>Profil Saya</h2>
+  <img src="../gambar/profil.jpg" class="profil" alt="Profil">
+  <p>
+    Nama: Muhammad Irsyaad<br>
+    Jurusan: Sistem Informasi<br>
+    Universitas Pamulang
+  </p>
+</section>
+
+<section id="karya" class="content">
+  <h2>Karya & Project</h2>
+  <div class="card">
+    <img src="../gambar/project1.png" alt="Project">
+    <p>Website Portofolio HTML, CSS & JavaScript</p>
+  </div>
+</section>
+
+<section id="media" class="content">
+  <h2>Media</h2>
+  <video controls width="400">
+    <source src="../media/video.mp4" type="video/mp4">
+    Browser tidak mendukung video.
+  </video>
+</section>
+
+<section id="kontak" class="content">
+  <h2>Kontak Saya</h2>
+  <div class="contact-box">
+    <p>📧 Email: mirsyaad3@email.com</p>
+    <p>📱 WhatsApp: 081295890972</p>
+    <p>📸 Instagram: @lahsiicad</p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

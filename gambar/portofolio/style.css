@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+/* NAVBAR */
+nav {
+  background: #2c3e50;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+/* CONTENT (SEMUA SECTION) */
+.content {
+  display: none;
+  min-height: 80vh;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+}
+
+/* YANG AKTIF */
+.content.active {
+  display: flex;
+}
+
+/* PROFIL */
+.profil {
+  width: 160px;
+  border-radius: 50%;
+  margin: 15px 0;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* VIDEO */
+video {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+/* KONTAK */
+.contact-box {
+  background: white;
+  padding: 20px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
